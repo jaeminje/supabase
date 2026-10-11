@@ -63,25 +63,25 @@ code{font-family:var(--mono);font-size:.86em;background:var(--accent-soft);color
 .slide.exiting{transition-delay:0s}
 .slide-inner{max-width:1120px;min-height:100%;margin:0 auto;padding:calc(var(--bar-h) + 16px) 6vw calc(var(--ctl-h) + 56px);display:flex;flex-direction:column;justify-content:center;gap:1.3rem}
 
-.h-slide{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,3.8vw,3rem);line-height:1.12;letter-spacing:-.012em;max-width:32ch;text-wrap:balance}
-.lead{font-family:var(--serif);font-size:clamp(1.1rem,1.7vw,1.4rem);line-height:1.5;color:var(--ink-2);max-width:60ch}
+.h-slide{font-family:var(--serif);font-weight:500;font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.12;letter-spacing:-.012em;max-width:32ch;text-wrap:balance}
+.lead{font-family:var(--serif);font-size:clamp(1rem,1.4vw,1.2rem);line-height:1.5;color:var(--ink-2);max-width:60ch}
 .lead em{color:var(--accent-deep)}
-.sub-h{font-family:var(--serif);font-weight:600;font-size:1.25rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)}
+.sub-h{font-family:var(--serif);font-weight:600;font-size:1.1rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)}
 .footnote{font-size:.92rem;color:var(--ink-2);max-width:70ch;padding-left:.9rem;border-left:2px solid var(--accent)}
 .ico{width:28px;height:28px;fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;margin-bottom:.7rem}
-h3{font-family:var(--serif);font-weight:600;font-size:1.2rem;line-height:1.25;margin-bottom:.35rem}
+h3{font-family:var(--serif);font-weight:600;font-size:1.1rem;line-height:1.25;margin-bottom:.35rem}
 .col p,.features p{color:var(--ink-2);font-size:.97rem}
 
 
 .s-cover{gap:1.4rem}
 .cover-course{font-size:.95rem;color:var(--ink-2)}
 .cover-title{font-family:var(--serif);font-weight:500;font-size:clamp(4rem,12vw,9rem);line-height:.95;letter-spacing:-.035em;color:var(--ink)}
-.cover-sub{font-family:var(--serif);font-size:clamp(1.15rem,2vw,1.6rem);color:var(--ink-2);max-width:42ch;line-height:1.4}
-.hook{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:56ch;padding-left:1.1rem;border-left:3px solid var(--accent);color:var(--ink)}
+.cover-sub{font-family:var(--serif);font-size:clamp(1rem,1.6vw,1.3rem);color:var(--ink-2);max-width:42ch;line-height:1.4}
+.hook{font-family:var(--serif);font-style:italic;font-size:clamp(.98rem,1.3vw,1.12rem);line-height:1.5;max-width:56ch;padding-left:1.1rem;border-left:3px solid var(--accent);color:var(--ink)}
 .cover-stats{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--line);max-width:640px}
 .cover-stats div{flex:1 1 150px;padding:.9rem 1rem .2rem 0}
 .cover-stats dt{font-size:.85rem;color:var(--ink-3)}
-.cover-stats dd{font-family:var(--serif);font-size:1.9rem;font-weight:500;color:var(--accent-deep)}
+.cover-stats dd{font-family:var(--serif);font-size:1.5rem;font-weight:500;color:var(--accent-deep)}
 .cover-meta{font-size:.85rem;color:var(--ink-3)}
 .rise{animation:rise .9s var(--ease) both}
 .rise:nth-child(2){animation-delay:.08s}.rise:nth-child(3){animation-delay:.16s}.rise:nth-child(4){animation-delay:.28s}.rise:nth-child(5){animation-delay:.4s}.rise:nth-child(6){animation-delay:.5s}
@@ -266,9 +266,9 @@ body.on-dark .divider{background:rgba(255,255,255,.2)}
 .s-cover{position:relative;z-index:4;gap:1.1rem;padding-bottom:calc(var(--ctl-h) + 100px)}
 .s-cover .cover-course{color:#9CC4B0}
 .cover-head{display:flex;align-items:center;gap:clamp(.8rem,2.4vw,1.8rem)}
-.cover-logo{width:clamp(56px,10vw,118px);height:auto;filter:drop-shadow(0 0 28px rgba(62,207,142,.5));animation:float 5s ease-in-out infinite}
+.cover-logo{width:clamp(48px,7vw,84px);height:auto;filter:drop-shadow(0 0 28px rgba(62,207,142,.5));animation:float 5s ease-in-out infinite}
 @keyframes float{50%{transform:translateY(-8px) rotate(-3deg)}}
-.cover-title{font-family:var(--display);font-weight:800;font-size:clamp(3.2rem,11vw,8.5rem);line-height:.95;letter-spacing:-.035em;color:#fff}
+.cover-title{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,8vw,6rem);line-height:.95;letter-spacing:-.035em;color:#fff}
 .s-cover .cover-sub{color:#CFE5DA}
 .s-cover .hook{color:#fff;border-color:var(--mint)}
 .s-cover .cover-stats{border-color:rgba(255,255,255,.18)}
@@ -332,8 +332,8 @@ button.svc.on strong,button.svc.on span{color:#fff}
 .g9{--cg:linear-gradient(135deg,#3ECF8E,#1B7F57)}
 .cell-ico{position:absolute;right:12px;top:12px;width:clamp(30px,4vw,48px);height:auto;fill:none;stroke:#fff;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;opacity:.55;transition:all .7s cubic-bezier(.16,1,.3,1)}
 .cell.is-active .cell-ico{width:clamp(100px,14vw,170px);right:-10px;top:auto;bottom:-14px;opacity:.2}
-.cell-num{font-family:var(--display);font-weight:800;font-size:clamp(1.1rem,2.2vw,1.8rem);opacity:.85}
-.cell-name{font-family:var(--display);font-weight:800;font-size:clamp(.85rem,1.5vw,1.35rem);line-height:1.1;margin-top:4px}
+.cell-num{font-family:var(--display);font-weight:800;font-size:clamp(1rem,1.6vw,1.3rem);opacity:.85}
+.cell-name{font-family:var(--display);font-weight:800;font-size:clamp(.8rem,1.2vw,1.1rem);line-height:1.1;margin-top:4px}
 .cell-cat{position:absolute;left:16px;bottom:12px;font-size:.72rem;opacity:.8}
 .cell-detail{position:absolute;left:16px;right:16px;bottom:36px;font-size:.88rem;line-height:1.45;max-width:46ch;opacity:0;transform:translateY(10px);transition:opacity .5s .15s,transform .5s .15s}
 .cell.is-active .cell-detail{opacity:1;transform:none}
@@ -349,7 +349,7 @@ button.svc.on strong,button.svc.on span{color:#fff}
 
 .s-close{gap:1.1rem}
 .s-close .links a{color:#7DD3A8}
-.scatter{font-family:var(--display)!important;font-weight:800;font-size:clamp(1.5rem,5.6vw,4.2rem)!important;line-height:1!important;letter-spacing:-.02em;max-width:none!important;color:#fff;display:flex;flex-wrap:wrap;margin:.2rem 0}
+.scatter{font-family:var(--display)!important;font-weight:800;font-size:clamp(1.3rem,4vw,3rem)!important;line-height:1!important;letter-spacing:-.02em;max-width:none!important;color:#fff;display:flex;flex-wrap:wrap;margin:.2rem 0}
 .scatter .glyph{display:inline-block;cursor:pointer;will-change:transform}
 .scatter{column-gap:.3em}
 .scatter .word{display:inline-flex;white-space:nowrap}
@@ -377,32 +377,6 @@ button.svc.on strong,button.svc.on span{color:#fff}
   .ticker-track,.cover-logo,.arch-gw::after{animation:none!important}
 }
 
-
-.s-cover .cover-course{color:var(--ink-2)}
-.cover-title{color:var(--ink)}
-.s-cover .cover-sub{color:var(--ink-2)}
-.s-cover .hook{color:var(--ink);border-color:var(--accent)}
-.s-cover .cover-stats{border-color:var(--line)}
-.s-cover .cover-stats dt{color:var(--ink-3)}
-.s-cover .cover-stats dd{color:var(--accent-deep)}
-.s-cover .cover-meta{color:var(--ink-3)}
-.cover-logo{filter:drop-shadow(0 8px 18px rgba(27,127,87,.35))}
-
-
-.string-path{stroke:var(--accent);filter:drop-shadow(0 0 6px rgba(27,127,87,.35))}
-.string-anchor{fill:var(--accent)}
-.string-grip{fill:var(--amber);filter:drop-shadow(0 0 6px rgba(201,138,27,.5))}
-.box{border-color:rgba(22,33,28,.18);background:rgba(255,255,255,.55)}
-.box.g{border-color:rgba(27,127,87,.55);background:rgba(62,207,142,.12)}
-.box.a{border-color:rgba(201,138,27,.6);background:rgba(251,239,214,.7)}
-.box.logo{border-color:rgba(27,127,87,.6);background:#fff url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDkgMTEzIiBmaWxsPSJub25lIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkxvZ28gU3VwYWJhc2UiPgogIDxwYXRoIGQ9Ik02My43MDc2IDExMC4yODRDNjAuODQ4MSAxMTMuODg1IDU1LjA1MDIgMTExLjkxMiA1NC45ODEzIDEwNy4zMTRMNTMuOTczOCA0MC4wNjI3TDk5LjE5MzUgNDAuMDYyN0MxMDcuMzg0IDQwLjA2MjcgMTExLjk1MiA0OS41MjI4IDEwNi44NTkgNTUuOTM3NEw2My43MDc2IDExMC4yODRaIiBmaWxsPSJ1cmwoI3NiQSkiLz4KICA8cGF0aCBkPSJNNjMuNzA3NiAxMTAuMjg0QzYwLjg0ODEgMTEzLjg4NSA1NS4wNTAyIDExMS45MTIgNTQuOTgxMyAxMDcuMzE0TDUzLjk3MzggNDAuMDYyN0w5OS4xOTM1IDQwLjA2MjdDMTA3LjM4NCA0MC4wNjI3IDExMS45NTIgNDkuNTIyOCAxMDYuODU5IDU1LjkzNzRMNjMuNzA3NiAxMTAuMjg0WiIgZmlsbD0idXJsKCNzYkIpIiBmaWxsLW9wYWNpdHk9IjAuMiIvPgogIDxwYXRoIGQ9Ik00NS4zMTcgMi4wNzEwM0M0OC4xNzY1IC0xLjUzMDM3IDUzLjk3NDUgMC40NDI5MzcgNTQuMDQzNCA1LjA0MUw1NC40ODQ5IDcyLjI5MjJIOS44MzExM0MxLjY0MDM4IDcyLjI5MjIgLTIuOTI3NzUgNjIuODMyMSAyLjE2NTUgNTYuNDE3NUw0NS4zMTcgMi4wNzEwM1oiIGZpbGw9IiMzRUNGOEUiLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2JBIiB4MT0iNTMuOTczOCIgeTE9IjU0Ljk3NCIgeDI9Ijk0LjE2MzUiIHkyPSI3MS44Mjk1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzI0OTM2MSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNFQ0Y4RSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNiQiIgeDE9IjM2LjE1NTgiIHkxPSIzMC41NzgiIHgyPSI1NC40ODQ0IiB5Mj0iNjUuMDgwNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K') center/52% no-repeat}
-
-
-.ticker{border-block:1px solid var(--line);background:rgba(255,255,255,.7)}
-.ticker-track{color:var(--accent-deep)}
-.ticker-track span::after{color:var(--amber)}
-.hint-cover{color:var(--ink-3)}
-
 </style>
 </head>
 <!--
@@ -429,7 +403,7 @@ button.svc.on strong,button.svc.on span{color:#fff}
 <main class="deck" id="deck">
 
   <!-- 1. PEMBUKA -->
-  <section class="slide active" data-section="Pembuka" data-sub="Supabase dan hook" data-notes="Selamat pagi, Bapak/Ibu dan teman-teman. Coba bayangkan Anda punya ide bisnis digital, misalnya aplikasi pemesanan untuk UMKM. Biasanya Anda butuh tim backend, server, sistem login, dan penyimpanan file. Hari ini kami memperkenalkan Supabase, platform backend open source berbasis PostgreSQL yang berdiri sejak 2020. Per pertengahan 2026, sekitar sepuluh juta developer memakainya, dan repositorinya telah melewati seratus ribu bintang di GitHub. Intinya, Supabase menjanjikan satu hal: bangun cepat, tetapi tidak terkunci pada satu vendor. Sepuluh menit ke depan, kami bahas apa itu Supabase, cara memakainya, dan risikonya.">
+  <section class="slide active" data-theme="dark" data-section="Pembuka" data-sub="Supabase dan hook" data-notes="Selamat pagi, Bapak/Ibu dan teman-teman. Coba bayangkan Anda punya ide bisnis digital, misalnya aplikasi pemesanan untuk UMKM. Biasanya Anda butuh tim backend, server, sistem login, dan penyimpanan file. Hari ini kami memperkenalkan Supabase, platform backend open source berbasis PostgreSQL yang berdiri sejak 2020. Per pertengahan 2026, sekitar sepuluh juta developer memakainya, dan repositorinya telah melewati seratus ribu bintang di GitHub. Intinya, Supabase menjanjikan satu hal: bangun cepat, tetapi tidak terkunci pada satu vendor. Sepuluh menit ke depan, kami bahas apa itu Supabase, cara memakainya, dan risikonya.">
     <div class="cover-field" id="coverField"></div>
     <svg class="string-svg" id="stringSvg" preserveAspectRatio="none" aria-hidden="true">
       <path class="string-path" id="stringPath"></path>
